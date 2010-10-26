@@ -30,7 +30,7 @@ class InteractiveEditor
       Exec.system(@editor, @file.path)
     end
 
-    execute if mtime < File.stat(@file.path).mtime
+    #execute if mtime < File.stat(@file.path).mtime
   end
 
   def execute
